@@ -1,0 +1,120 @@
+            body {
+           background-color: mediumorchid;
+            }
+            #main{
+                position:absolute;
+                padding-top: 200px;
+                margin-bottom: 0px;                left: 0px;
+                bottom: 0px;
+                height: 100%;
+                width: 100%;
+
+
+                background: repeating-radial-gradient(
+                        circle,
+                        white,
+                        white 10px,
+                        #eeeeee 10px,
+                        #4234ff 20px
+                );
+                overflow:auto;
+            }
+            td div{
+
+                background: url(../images/mute.jpg) no-repeat;
+                background-size: 50px 50px;
+                height: 50px;                width: 50px;
+                cursor: pointer;
+            }
+            #div1{
+                position:absolute;
+                float: right;
+                top:0;
+                right:0;
+                background-color: #4234ff;
+            }
+            #alphanum{
+
+                padding-top: 200px;
+                font-size: 25px;
+            }
+            #headline{
+
+                font-size: 35px;
+            }
+            #timer{
+                font-size:25px;
+                top: 25px;
+                right: 50px;
+                text-align:center;
+                color : red;'
+            }
+            #dumdiv{
+                font-size: 10px;
+                color: #dadada;
+                display: none;
+            }
+            .bubb {
+            position: absolute;
+            width:30px;
+                height: 20px;
+                font: bold 14px verdana;
+            text-align: center;
+            -webkit-border-radius: 40px;
+            -moz-border-radius: 40px;            vertical-align: middle;
+            padding: 5px;
+            }
+
+            #score {
+            font-size:25px;
+            top: 25px;
+            right: 50px;
+                    display: none;
+            text-align:center;
+            color : red;
+            }
+
+                    #scor1 {
+                    font-size:25px;
+                    top: 25px;
+                    right: 50px;                    display: none;
+                    text-align:center;
+                    }
+
+            #time2 {
+            font-size:25px;
+            top: 25px;                right: 50px;
+            display: none;
+            text-align:center;
+            }
+            #soundtext {
+                font-size:30px;
+                top: 25px;
+                right: 50px;
+                display: none;
+                text-align:center;
+                color: darkred;
+            }
+            #sc{
+
+                    font-size:30px;
+                     top: 25px;
+                     right: 50px;                display: none;
+                    text-align:center;
+
+            }
+            #start {
+                width: 100px;
+              padding: 10px 15px;
+                    text-align: center;
+                    font:bold 15px arial;
+                    background-color:chartreuse;
+                 background-color:deeppink;
+            color: blue;
+            cursor: pointer;
+            }
+
+                #start:hover
+            {
+            cursor: pointer;
+            }
